@@ -7,7 +7,7 @@ if ($_SESSION["REQUEST_METHOD"] == "POST") {
 
     if ($email == "teste@exmpl.com" && $senha == "teste123") {
         header("Location: cmpr.html");
-        exit;
+        exit();
         } else {
             echo "Email ou senha inválidos. Tente novamente.";
 }
