@@ -4,8 +4,7 @@ if ($_SESSION["REQUEST_METHOD"] == "POST") {
         $email = $_POST["email"];
         $senha = $_POST["senha"];
 }
-
-    if ($email == "teste@exmpl.com" && $senha == "teste123") {
+    if ($email === "teste@exmpl.com" && $senha === "teste123") {
         header("Location: cmpr.html");
         exit();
         } else {
