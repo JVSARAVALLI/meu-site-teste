@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 80px;
+  background-color: #87CEEB;
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  bottom: 58px;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h2{
+  text-align: center;
+  font-size: 32px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+form {
+  display: inline;
+}
+input {
+  
+
+}button {
+  
+}
+
+button:hover {
+  
+}
