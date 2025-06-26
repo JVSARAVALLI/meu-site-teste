@@ -1,40 +1,56 @@
-body{
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87ceeb;
   font-family: Arial, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 80px;
-  background-color: #87CEEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
 }
 
-h1{
+.titulo-site {
+  font-size: 45px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 50px;
   text-align: center;
-  position: relative;
-  bottom: 58px;
-  font-size: 40px;
-  font-family: Arial, sans-serif;
+}
+
+
+.login-container {
+  background-color: white;
+  padding: 70px;
+  border-radius: px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  width: 550px;
+}
+
+.login-container label {
+  display: block;
+  margin-top: 25px;
   font-weight: bold;
-  text-decoration: none;
 }
 
-h2{
-  text-align: center;
-  font-size: 32px;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  text-decoration: none;
+.login-container input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 1px;
 }
 
-form {
-  display: inline;
+.login-container button {
+  width: 105%;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: #4e5ef2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
-input {
-  
 
-}button {
-  
-}
-
-button:hover {
-  
+.login-container button:hover {
+  background-color: #3b49c9;
 }
