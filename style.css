@@ -6,11 +6,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 115vh; 
 }
 
 .titulo-site {
-  font-size: 45px;
+  font-size: 20px;
   font-weight: bold;
   color: #222;
   margin-bottom: 50px;
@@ -20,29 +20,29 @@ body {
 
 .login-container {
   background-color: white;
-  padding: 70px;
   border-radius: px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   width: 550px;
+  height: 650px;
 }
 
 .login-container label {
   display: block;
-  margin-top: 25px;
+  margin-top: 90px;
   font-weight: bold;
 }
 
 .login-container input {
-  width: 100%;
+  width: 65%;
   padding: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 1px;
 }
 
 .login-container button {
-  width: 105%;
+  width: 70%;
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 80px;
   background-color: #4e5ef2;
   color: white;
   border: none;
