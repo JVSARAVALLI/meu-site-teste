@@ -19,7 +19,7 @@ h1{
 }
 
 .titulo-site {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   color: #222;
   margin-bottom: 60px;
@@ -68,15 +68,15 @@ h1{
 }
 
 
-.contedo{
+.conteudo2{
   font-size: 17px;
   color: #111;
   margin-bottom: 60px;
   text-align: center;
   margin: 10px 15px 20px 25px;
 }
-.titulo-site{
-  font-size: 50px;
+.titulo{
+  font-size: 25px;
   font-weight: bold;
   color: #222;
   margin-bottom: 60px;
