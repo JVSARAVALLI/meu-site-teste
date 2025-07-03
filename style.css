@@ -6,21 +6,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 115vh; 
+  height: 120vh; 
 }
 h1{
   color: #222;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 80px;
-  text-align: center
+  margin-bottom: 70px;
+  text-align: center;
+  margin: 10px 15px 20px 25px;
+  text-decoration: underline;
 }
 
 .titulo-site {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   color: #222;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -36,12 +38,12 @@ h1{
 
 .login-container label {
   display: block;
-  margin-top: 90px;
+  margin-top: 60px;
   font-weight: bold;
 }
 
 .login-container input {
-  width: 65%;
+  width: 55%;
   padding: 15px;
   margin-top: 0px;
   font-size: 15px;
@@ -50,7 +52,7 @@ h1{
 }
 
 .login-container button {
-  width: 70%;
+  width: 80%;
   padding: 10px;
   margin-top: 60px;
   background-color: #4e5ef2;
@@ -65,11 +67,37 @@ h1{
   background-color: #3b49c9;
 }
 
+
+.contedo{
+  font-size: 17px;
+  color: #111;
+  margin-bottom: 60px;
+  text-align: center;
+  margin: 10px 15px 20px 25px;
+}
+.titulo-site{
+  font-size: 50px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 60px;
+  text-align: center;
+  margin: 10px 15px 20px 25px
+}
 .produtos-container{
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 60px;
   width: 100%;
   height: 100%;
   color: #222;
+}
+.produto{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
